@@ -5,10 +5,11 @@ public class Registration
     public bool oldEnough = true;
     public string ValidateAge(oldEnough)
     {
-        if (oldEnough)
+        if (oldEnough == true)
         {
             return "old enough";
-        } 
-        return "";
+        } else {
+            return "";
+        }
     }
 }
