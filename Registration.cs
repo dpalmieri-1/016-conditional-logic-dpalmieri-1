@@ -2,8 +2,7 @@
 public class Registration
 {
     // Add your code here
-    public bool oldEnough = true;
-    public string ValidateAge(oldEnough)
+    public string ValidateAge(bool oldEnough)
     {
         if (oldEnough == true)
         {
